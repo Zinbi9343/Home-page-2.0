@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Google</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<nav>
+    <ul class="nav-links">
+        <li>
+            <a href="https://www.wikipedia.org/">
+                <img src="/Wikipedia.svg.png" alt="Wikipedia logo" class="nav-logo">
+                Wikipedia
+            </a>
+        </li>
+        <li>
+            <a href="https://maps.google.com/">
+                <img src="googlemaps.svg.png" alt="Google Maps Logo" class="nav-logo">
+                Google Maps
+            </a>
+        </li>
+        <li>
+            <a href="https://news.google.com/">
+                <img src="Googlenews.png" alt="Google News Logo" class="nav-logo">
+                Google News
+            </a>
+        </li>
+        <li>
+            <a href="https://translate.google.com/">
+                <img src="Googletranslate.svg.png" alt="Google Translate Logo" class="nav-logo">
+                Google Translate
+            </a>
+        </li>
+        <!-- Add more tools with logos as needed -->
+    </ul>
+</nav>
+<div id="container">
+    <div id="header">
+        <img id="logo" src="Google.svg.png" alt="Your Logo">
+        <div id="profile-icon">
+              <a href="profile.html">
+            <img src="bh.jpg" alt="Profile">
+            Profile
+        </a>
+        </div>
+    </div>
+
+    <form action="https://www.google.com/search" method="GET" target="_blank">
+        <input class="search-bar" type="text" name="q" placeholder="Search...">
+        <button class="search-button" type="submit">Search</button>
+        <input type="hidden" name="hl" value="en"> <!-- Language setting -->
+        <input type="hidden" name="gws_rd" value="ssl"> <!-- Google Web Server setting -->
+        <div id="suggestions"></div>
+    </form>
+
+    <div id="tools">
+        <!-- Shortcuts with logos -->
+        <a href="https://www.samagra.gov.in/" class="shortcut">
+            <img src="samagra.png" alt="Samagra Logo">
+            Samagra
+        </a>
+        <a href="https://uidai.gov.in/" class="shortcut">
+            <img src="uidai.png" alt="UIDAI Logo">
+            UIDAI
+        </a>
+        <a href="https://mpbse.nic.in/" class="shortcut">
+            <img src="mpbse.jpg" alt="MPBSE Logo">
+            MPBSE
+        </a>
+        <a href="https://github.com/" class="shortcut">
+            <img src="github.png" alt="GitHub Logo">
+            GitHub
+        </a>
+
+        <a href="http://mpresults.nic.in/" class="shortcut">
+            <img src="mpresult.jpeg" alt="MP Results Logo">
+            MP Results
+        </a>
+        <a href="https://www.mponline.gov.in/" class="shortcut">
+            <img src="mponline.png" alt="MPOnline Logo">
+            MPOnline
+        </a>
+         <a href="https://www.youtube.com/" class="shortcut">
+            <img src="youtube.png" alt="YouTube Logo">
+            YouTube
+        </a>
+         <a href="https://www.facebook.com/" class="shortcut">
+            <img src="facebook.png" alt="Facebook Logo">
+            Facebook 
+        </a>
+         <a href="https://www.instagram.com/" class="shortcut">
+            <img src="insta.png" alt="Insta logo">
+            Instagram 
+        </a>
+         <a href="https://www.x.com/" class="shortcut">
+            <img src="X.png" alt="X Logo">
+            X(Twiiter)
+        </a>
+         <a href="https://www.youtubemusic.com/" class="shortcut">
+            <img src="yt_music.jpeg" alt="YouTube music Logo">
+            YT Music
+        </a>
+       
+    </div>
+
+    <!-- Advanced content -->
+    <div id="advanced-content">
+        <h2>Welcome to Neon Google</h2>
+        <p>Neon Google is not just a search engine, it's your gateway to the digital world. Here, you can find not only information but also tools and resources to enhance your online experience.</p>
+        <h3>Explore More:</h3>
+        <ul>
+            <li>Learn about <a href="https://privacy.google.com">privacy and security</a> to keep your online presence safe.</li>
+            <li>Discover <a href="tips.html">tips and tricks</a> to optimize your search queries and find what you need faster.</li>
+            <li>Check out our <a href="https://blog.google.com">latest updates</a> to stay informed about new features and improvements.</li>
+        </ul>
+        <p>At Neon Google, we're committed to providing you with the best possible online experience. Start exploring now!</p>
+    </div>
+
+    <!-- Shortcut section for social media -->
+
+<div id="footer">
+    <small id="footer-text">© 2024 Neon Google</small>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

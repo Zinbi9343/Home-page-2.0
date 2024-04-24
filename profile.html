@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zuber Khan - Profile</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #0ff;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 20px #0ff;
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .profile-pic {
+      border-radius: 50%;
+      border: 5px solid #0ff;
+      box-shadow: 0 0 10px #0ff;
+      margin-bottom: 20px;
+      width: 200px;
+      height: 200px;
+      background-image: url('bh.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #0ff;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .about-me {
+      text-align: left;
+      padding: 20px;
+      border: 2px solid #0ff;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 10px #0ff;
+    }
+  </style>
+</head>
+<body>
+
+<div id="welcome" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; opacity: 0;">
+  <h1>Welcome to Zuber Khan's Profile</h1>
+</div>
+
+<div class="container">
+  <div class="profile-pic"></div>
+  <h1>Zuber Khan</h1>
+  <p>Instagram: @Medico.boy89</p>
+  <p>Age: 15</p>
+  <p>Email: medicoboy93@gmail.com</p>
+  <p>Hobby: Coding</p>
+  <p>Date of Website Creation: 25th of april 2024</p>
+  <div class="about-me">
+    <h2>About Me</h2>
+    <p>Hi there! I'm Zuber Khan, a passionate coder and aspiring developer. At just 15, I've already delved into the world of website creation, combining my love for coding with my interests in various fields. Inspired by my curiosity and desire to share knowledge, I embarked on the journey of creating my website. The idea struck me while I was exploring different coding languages and their applications. I realized the potential of having a platform where I could not only showcase my projects but also connect with like-minded individuals. Thus, the concept of my website was born, and with dedication and enthusiasm, I brought it to life. Through my website, I aim to inspire others to pursue their passions and explore the endless possibilities of coding and technology. Join me on this exciting journey!</p>
+  </div>
+  <div class="about-me"><h2>Main Project </h2>
+  <p>
+
+For my main project, I embarked on an ambitious endeavor to reimagine the iconic Google homepage with a captivating neon twist. Drawing inspiration from the vibrant nightlife and futuristic aesthetics, I meticulously crafted every element of the page to exude a modern and dynamic vibe. Utilizing advanced web development techniques, I incorporated animated neon elements, sleek typography, and interactive features to enhance user engagement. From the pulsating search bar to the mesmerizing glow of the Google logo, every detail was meticulously designed to evoke a sense of excitement and innovation. Through this project, I aimed to push the boundaries of web design while paying homage to one of the most recognizable interfaces on the internet.</p></div>
+</div>
+
+
+<script>
+  window.onload = function() {
+    var welcomeDiv = document.getElementById("welcome");
+    welcomeDiv.style.opacity = "1";
+    setTimeout(function() {
+      welcomeDiv.style.opacity = "0";
+      setTimeout(function() {
+        welcomeDiv.style.display = "none";
+      }, 2000);
+    }, 3000);
+  }
+</script>
+
+</body>
+</html>
